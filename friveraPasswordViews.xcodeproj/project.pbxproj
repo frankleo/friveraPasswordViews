@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DEA495176E39AD0068BE15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DEA494176E39AD0068BE15 /* UIKit.framework */; };
+		E1DEA497176E39AD0068BE15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DEA496176E39AD0068BE15 /* Foundation.framework */; };
+		E1DEA499176E39AD0068BE15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DEA498176E39AD0068BE15 /* CoreGraphics.framework */; };
+		E1DEA49F176E39AD0068BE15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1DEA49D176E39AD0068BE15 /* InfoPlist.strings */; };
+		E1DEA4A1176E39AD0068BE15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DEA4A0176E39AD0068BE15 /* main.m */; };
+		E1DEA4A5176E39AD0068BE15 /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DEA4A4176E39AD0068BE15 /* QCAppDelegate.m */; };
+		E1DEA4A7176E39AD0068BE15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1DEA4A6176E39AD0068BE15 /* Default.png */; };
+		E1DEA4A9176E39AD0068BE15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1DEA4A8176E39AD0068BE15 /* Default@2x.png */; };
+		E1DEA4AB176E39AD0068BE15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1DEA4AA176E39AD0068BE15 /* Default-568h@2x.png */; };
+		E1DEA4AE176E39AD0068BE15 /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DEA4AD176E39AD0068BE15 /* QCViewController.m */; };
+		E1DEA4B1176E39AD0068BE15 /* QCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DEA4AF176E39AD0068BE15 /* QCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1DEA491176E39AD0068BE15 /* friveraPasswordViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friveraPasswordViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DEA494176E39AD0068BE15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1DEA496176E39AD0068BE15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1DEA498176E39AD0068BE15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1DEA49C176E39AD0068BE15 /* friveraPasswordViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "friveraPasswordViews-Info.plist"; sourceTree = "<group>"; };
+		E1DEA49E176E39AD0068BE15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1DEA4A0176E39AD0068BE15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1DEA4A2176E39AD0068BE15 /* friveraPasswordViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "friveraPasswordViews-Prefix.pch"; sourceTree = "<group>"; };
+		E1DEA4A3176E39AD0068BE15 /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		E1DEA4A4176E39AD0068BE15 /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		E1DEA4A6176E39AD0068BE15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E1DEA4A8176E39AD0068BE15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E1DEA4AA176E39AD0068BE15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E1DEA4AC176E39AD0068BE15 /* QCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
+		E1DEA4AD176E39AD0068BE15 /* QCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
+		E1DEA4B0176E39AD0068BE15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DEA48E176E39AD0068BE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DEA495176E39AD0068BE15 /* UIKit.framework in Frameworks */,
+				E1DEA497176E39AD0068BE15 /* Foundation.framework in Frameworks */,
+				E1DEA499176E39AD0068BE15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1DEA488176E39AD0068BE15 = {
+			isa = PBXGroup;
+			children = (
+				E1DEA49A176E39AD0068BE15 /* friveraPasswordViews */,
+				E1DEA493176E39AD0068BE15 /* Frameworks */,
+				E1DEA492176E39AD0068BE15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DEA492176E39AD0068BE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEA491176E39AD0068BE15 /* friveraPasswordViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DEA493176E39AD0068BE15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEA494176E39AD0068BE15 /* UIKit.framework */,
+				E1DEA496176E39AD0068BE15 /* Foundation.framework */,
+				E1DEA498176E39AD0068BE15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DEA49A176E39AD0068BE15 /* friveraPasswordViews */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEA4A3176E39AD0068BE15 /* QCAppDelegate.h */,
+				E1DEA4A4176E39AD0068BE15 /* QCAppDelegate.m */,
+				E1DEA4AC176E39AD0068BE15 /* QCViewController.h */,
+				E1DEA4AD176E39AD0068BE15 /* QCViewController.m */,
+				E1DEA4AF176E39AD0068BE15 /* QCViewController.xib */,
+				E1DEA49B176E39AD0068BE15 /* Supporting Files */,
+			);
+			path = friveraPasswordViews;
+			sourceTree = "<group>";
+		};
+		E1DEA49B176E39AD0068BE15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEA49C176E39AD0068BE15 /* friveraPasswordViews-Info.plist */,
+				E1DEA49D176E39AD0068BE15 /* InfoPlist.strings */,
+				E1DEA4A0176E39AD0068BE15 /* main.m */,
+				E1DEA4A2176E39AD0068BE15 /* friveraPasswordViews-Prefix.pch */,
+				E1DEA4A6176E39AD0068BE15 /* Default.png */,
+				E1DEA4A8176E39AD0068BE15 /* Default@2x.png */,
+				E1DEA4AA176E39AD0068BE15 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DEA490176E39AD0068BE15 /* friveraPasswordViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DEA4B4176E39AD0068BE15 /* Build configuration list for PBXNativeTarget "friveraPasswordViews" */;
+			buildPhases = (
+				E1DEA48D176E39AD0068BE15 /* Sources */,
+				E1DEA48E176E39AD0068BE15 /* Frameworks */,
+				E1DEA48F176E39AD0068BE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = friveraPasswordViews;
+			productName = friveraPasswordViews;
+			productReference = E1DEA491176E39AD0068BE15 /* friveraPasswordViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DEA489176E39AD0068BE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frank Rivera";
+			};
+			buildConfigurationList = E1DEA48C176E39AD0068BE15 /* Build configuration list for PBXProject "friveraPasswordViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1DEA488176E39AD0068BE15;
+			productRefGroup = E1DEA492176E39AD0068BE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DEA490176E39AD0068BE15 /* friveraPasswordViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DEA48F176E39AD0068BE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DEA49F176E39AD0068BE15 /* InfoPlist.strings in Resources */,
+				E1DEA4A7176E39AD0068BE15 /* Default.png in Resources */,
+				E1DEA4A9176E39AD0068BE15 /* Default@2x.png in Resources */,
+				E1DEA4AB176E39AD0068BE15 /* Default-568h@2x.png in Resources */,
+				E1DEA4B1176E39AD0068BE15 /* QCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DEA48D176E39AD0068BE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DEA4A1176E39AD0068BE15 /* main.m in Sources */,
+				E1DEA4A5176E39AD0068BE15 /* QCAppDelegate.m in Sources */,
+				E1DEA4AE176E39AD0068BE15 /* QCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1DEA49D176E39AD0068BE15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DEA49E176E39AD0068BE15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1DEA4AF176E39AD0068BE15 /* QCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DEA4B0176E39AD0068BE15 /* en */,
+			);
+			name = QCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1DEA4B2176E39AD0068BE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1DEA4B3176E39AD0068BE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DEA4B5176E39AD0068BE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "friveraPasswordViews/friveraPasswordViews-Prefix.pch";
+				INFOPLIST_FILE = "friveraPasswordViews/friveraPasswordViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1DEA4B6176E39AD0068BE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "friveraPasswordViews/friveraPasswordViews-Prefix.pch";
+				INFOPLIST_FILE = "friveraPasswordViews/friveraPasswordViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DEA48C176E39AD0068BE15 /* Build configuration list for PBXProject "friveraPasswordViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DEA4B2176E39AD0068BE15 /* Debug */,
+				E1DEA4B3176E39AD0068BE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DEA4B4176E39AD0068BE15 /* Build configuration list for PBXNativeTarget "friveraPasswordViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DEA4B5176E39AD0068BE15 /* Debug */,
+				E1DEA4B6176E39AD0068BE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1DEA489176E39AD0068BE15 /* Project object */;
+}
